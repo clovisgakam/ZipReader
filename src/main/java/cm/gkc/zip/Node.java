@@ -103,7 +103,7 @@ public class Node implements Comparable<Node> {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        FileTo other = (FileTo) obj;
+        Node other = (Node) obj;
         if (depth != other.depth) {
             return false;
         }
@@ -126,4 +126,5 @@ public class Node implements Comparable<Node> {
         }
         return true;
     }
+
 }
